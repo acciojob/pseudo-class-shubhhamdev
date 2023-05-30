@@ -1,9 +1,13 @@
-/*  your css code here. If applicable */
-div::after{
-	content: " After Element";
-	color: red;
+.main-container {
+  position: relative;
 }
-div::before{
-	content: "Before Element ";
-	color: red;
+
+.main-container p::before {
+  content: "Before Element ";
+  color: red;
+}
+
+.main-container p::after {
+  content: " After Element";
+  color: red;
 }
