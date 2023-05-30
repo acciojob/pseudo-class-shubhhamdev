@@ -1,13 +1,9 @@
-.main-container {
-  position: relative;
-}
-
-.container p::before {
+.container p:before {
   content: "Before Element ";
-  color: rgb(255, 0, 0);
+  color: red;
 }
 
-.container p::after {
+.container p:after {
   content: " After Element";
-  color: rgb(255, 0, 0);
+  color: red;
 }
