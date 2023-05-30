@@ -1,7 +1,7 @@
 /*  your css code here. If applicable */
-p:after{
-	content: " After Element"
+div:after{
+	content: " After Element";
 }
-p:before{
+div:before{
 	content: "Before Element "
 }
