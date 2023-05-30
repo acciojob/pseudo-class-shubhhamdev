@@ -1,7 +1,9 @@
 /*  your css code here. If applicable */
 div:after{
 	content: " After Element";
+	color: red;
 }
 div:before{
-	content: "Before Element "
+	content: "Before Element ";
+	color: red;
 }
