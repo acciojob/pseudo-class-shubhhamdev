@@ -4,10 +4,10 @@
 
 .main-container p::before {
   content: "Before Element ";
-  color: red;
+  color: rgb(255, 0, 0);
 }
 
 .main-container p::after {
   content: " After Element";
-  color: red;
+  color: rgb(255, 0, 0);
 }
